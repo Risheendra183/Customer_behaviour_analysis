@@ -14,40 +14,28 @@ The goal of this project is to simulate a corporate-grade end-to-end data analyt
 <img width="828" height="450" alt="image" src="https://github.com/user-attachments/assets/1b35b072-7eea-4b15-9a6d-cfa66be4df06" />
 
 🛠️ How to Use This Project
-Clone the repository
+1.Clone the repository
 
 git clone https://github.com/Risheendra183/Customer_behaviour_analysis
-cd customer-trends-data-analysis-SQL-Python-PowerBI
-Open Customer_Shopping_Behavior_Analysis.ipynb notebook
 
-This file contains:
 
-Data Import
+2.Open Data Preprocessing.ipynb notebook
+   This file contains:
+     Data Import
+     Data exploration
+     Data cleaning
+     Connection to SQL Database
 
-Data exploration
+3.Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server
+   Create a database in MySQL
+   Run Python code to load data into SQL database
+   Open customer_behavior_sql_queries.sql
+   Answer Business Questions using SQL Queries
 
-Data cleaning
-
-Connection to SQL Database
-
-Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server
-
-Create a database in MySQL
-
-Run Python code to load data into SQL database
-
-Open customer_behavior_sql_queries.sql
-
-Answer Business Questions using SQL Queries
-
-Connect the SQL Database to Power BI
-
-Open customer_behavior_dashboard.pbix
-
-Create interactive dashboard in Power BI
-
-Create Project Report and Presentation
-
-Create project report
-
-Build presentation deck using Gamma AI
+4.Connect the SQL Database to Power BI
+   Open customer_behavior.pbix
+   Create interactive dashboard in Power BI
+   
+5.Create Project Report and Presentation
+   Create project report
+   Build presentation deck using Gamma AI
